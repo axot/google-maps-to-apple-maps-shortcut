@@ -1,0 +1,17 @@
+{
+  "name": "Apple Map",
+  "description": "Open Google Maps places in Apple Maps navigation with an iOS Shortcut.",
+  "icloud_url": "https://www.icloud.com/shortcuts/32e44c7daedf4909884206cb362ce4da",
+  "repository": "https://github.com/axot/google-maps-to-apple-maps-shortcut",
+  "version": "1.0.0",
+  "released": "2026-05-24",
+  "signing_status": "APPROVED",
+  "keywords": [
+    "google maps to apple maps",
+    "ios shortcut",
+    "apple maps navigation",
+    "google maps share sheet",
+    "carplay",
+    "iphone automation"
+  ]
+}

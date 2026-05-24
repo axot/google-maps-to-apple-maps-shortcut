@@ -1,0 +1,15 @@
+name: Validate
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate-shortcut:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate shortcut plist
+        run: plutil -lint "shortcut/Apple Map.shortcut"
